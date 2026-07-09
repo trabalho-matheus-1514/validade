@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Você está offline — Prazo Certo</title>
+<meta name="theme-color" content="#1f4e42" />
+<link rel="icon" href="/icons/icon-32.png" />
+<style>
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    flex-direction: column; gap: 12px; background: #eef2ef; color: #1c2b2c;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif; text-align: center; padding: 24px;
+  }
+  img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { font-size: 20px; margin: 6px 0 0; }
+  p { color: #5b6b66; font-size: 14px; max-width: 320px; line-height: 1.5; }
+  button {
+    margin-top: 8px; padding: 10px 18px; border-radius: 9px; border: none; background: #1f4e42;
+    color: #eef7f1; font-weight: 600; font-size: 13.5px; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <img src="/icons/icon-192.png" alt="" />
+  <h1>Você está sem conexão</h1>
+  <p>Não foi possível carregar uma página nova, mas o Prazo Certo continua funcionando com os dados já salvos neste dispositivo assim que a conexão voltar.</p>
+  <button onclick="location.reload()">Tentar novamente</button>
+</body>
+</html>
