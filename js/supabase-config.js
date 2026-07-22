@@ -15,6 +15,6 @@
  * com armazenamento local (localStorage), como antes — nada quebra.
  */
 window.PRAZO_CERTO_CONFIG = {
-  SUPABASE_URL: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJhbXlwdWFub2NuZnBkdWp4ZXNqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM2MTUzMzgsImV4cCI6MjA5OTE5MTMzOH0.8ds3L6Jk7-HFjO2NvIjvcS22QeDkExxHGXI2yOtlTos",
+  SUPABASE_URL: "https://ramypuanocnfpdujxesj.supabase.co",
   SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJhbXlwdWFub2NuZnBkdWp4ZXNqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM2MTUzMzgsImV4cCI6MjA5OTE5MTMzOH0.8ds3L6Jk7-HFjO2NvIjvcS22QeDkExxHGXI2yOtlTos"
 };
